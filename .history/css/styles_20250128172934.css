@@ -1,0 +1,53 @@
+/* Warm and Inviting Color Scheme with Gold Accent */
+body {
+  background-color: #F5F5F5;
+  color: #333333;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  color: #333333;
+}
+
+.navbar {
+  background-color: #FF7F50 !important; /* Coral */
+  margin-bottom: 20px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #FFFFFF !important; /* White text for navbar links */
+}
+
+header {
+  background: #f1f1f1  !important; /* Coral */
+  color: #FFFFFF !important; /* White text */
+  padding: 60px 0;
+}
+
+.btn-primary {
+  background-color: #1ABC9C !important; /* Teal */
+  border-color: #1ABC9C !important;
+  color: #FFFFFF !; /* White text */
+}
+
+.btn-primary:hover {
+  background-color: #16A085; /* Slightly darker teal */
+  border-color: #16A085;
+}
+
+.card {
+  background-color: #FFFFFF;
+  color: #333333;
+  margin-bottom: 20px;
+  border: 1px solid #DDDDDD;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background: #FF7F50; /* Coral */
+  color: #FFFFFF; /* White text */
+  padding: 20px 0;
+  margin-top: 40px;
+}

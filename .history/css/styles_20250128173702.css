@@ -35,8 +35,8 @@ section {
 }
 
 header {
-  background: linear-gradient(135deg, #FF7F50, #FFA07A);
-  color: #FFFFFF;
+  background: #FF7F50; /* Coral */
+  color: #FFFFFF; /* White text */
   padding: 60px 0;
 }
 

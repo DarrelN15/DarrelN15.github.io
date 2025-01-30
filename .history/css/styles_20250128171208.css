@@ -1,0 +1,45 @@
+/* Modern Minimalist (Dark Theme) */
+body {
+  background-color: #121212;
+  color: #E0E0E0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  color: #FFFFFF;
+}
+
+.navbar {
+  background-color: #1A1A1A !important;
+  margin-bottom: 20px;
+}
+
+header {
+  background: #1A1A1A;
+  color: #FFFFFF;
+  padding: 60px 0;
+}
+
+.btn-primary {
+  background-color: #FF6B6B;
+  border-color: #FF6B6B;
+}
+
+.btn-primary:hover {
+  background-color: #FF5252;
+  border-color: #FF5252;
+}
+
+.card {
+  background-color: #1A1A1A;
+  color: #E0E0E0;
+  margin-bottom: 20px;
+}
+
+footer {
+  background: #1A1A1A;
+  color: #E0E0E0;
+  padding: 20px 0;
+  margin-top: 40px;
+}
