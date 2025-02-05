@@ -1,11 +1,26 @@
-/* Warm and Inviting Color Scheme with Gold Accent */
+/* 1. Full-height body using flexbox */
+html,
 body {
-  background-color: #F5F5F5;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #F2F2F2; /* Light Gray for a corporate vibe */
   color: #333333;
   font-family: Arial, sans-serif;
   line-height: 1.6;
 }
 
+/* 2. Main content grows to push footer down */
+main {
+  flex: 1;
+}
+
+/* Headers */
 h1 {
   font-size: 3rem;
   margin-bottom: 20px;
@@ -13,7 +28,7 @@ h1 {
 
 h2 {
   font-size: 2rem;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 p {
@@ -21,41 +36,49 @@ p {
   line-height: 1.8;
 }
 
+/* Sections */
 section {
   padding: 60px 0;
 }
 
+/* Navbar: Navy color from your corporate palette */
 .navbar {
-  background-color: #FF7F50 !important; /* Coral */
-  margin-bottom: 20px;
+  background-color: #23374D !important;
+  margin-bottom: 0px; /* Optional to create spacing under nav */
 }
 
+/* Navbar links in white */
 .navbar-dark .navbar-nav .nav-link {
-  color: #FFFFFF !important; /* White text for navbar links */
+  color: #ffffff !important;
 }
 
+/* Optional: ID-based styling for the homepage header if you want a gradient */
 header {
-  background: linear-gradient(135deg, #FF7F50, #FFA07A);
+  background: linear-gradient(135deg, #23374D, #2e4c69);
   color: #FFFFFF;
   padding: 60px 0;
+  /* Remove any margin-top if you see a white gap */
 }
 
+
+/* Buttons: Gold accent */
 .btn-primary {
-  background-color: #FFD700; /* Gold */
-  border-color: #FFD700;
-  color: #333333; /* Dark text for better contrast */
+  background-color: #FFC107; /* Gold */
+  border-color: #FFC107;
+  color: #23374D; /* Navy text for contrast */
 }
 
 .btn-primary:hover {
-  background-color: #FFC107; /* Slightly darker gold */
-  border-color: #FFC107;
+  background-color: #FFB300; /* Slightly darker gold */
+  border-color: #FFB300;
 }
 
+/* Cards */
 .card {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   color: #333333;
   margin-bottom: 20px;
-  border: 1px solid #DDDDDD;
+  border: 1px solid #dddddd;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -66,10 +89,8 @@ header {
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
+/* Footer: match the text to your design */
 footer {
-  background: #FF7F50;
-  color: #FFFFFF;
-  padding: 20px 0;
-  margin-top: 40px;
-  border-top: 2px solid #FFA07A;
+  background-color: #23374D; /* or keep it transparent if you prefer */
+  color: #ffffff;
 }
