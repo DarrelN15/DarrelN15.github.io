@@ -94,3 +94,55 @@ footer {
   background-color: #23374D; /* or keep it transparent if you prefer */
   color: #ffffff;
 }
+
+/* Featured Projects */
+#featured-projects h2 {
+  margin-bottom: 30px;
+}
+
+.card {
+  background-color: #ffffff;
+  color: #333333;
+  margin-bottom: 20px;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  height: 300px;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 0.9rem;
+}
+
+/* Button Style */
+.btn-primary {
+  background-color: #FFC107;
+  border-color: #FFC107;
+  color: #23374D;
+}
+
+.btn-primary:hover {
+  background-color: #FFB300;
+  border-color: #FFB300;
+}
