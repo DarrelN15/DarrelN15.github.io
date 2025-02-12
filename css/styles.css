@@ -45,6 +45,10 @@ section {
 .navbar {
   background-color: #23374D !important;
   margin-bottom: 0px; /* Optional to create spacing under nav */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 /* Navbar links in white */
@@ -52,14 +56,17 @@ section {
   color: #ffffff !important;
 }
 
+/* Adjust body padding to prevent content from being covered by navbar */
+body {
+  padding-top: 50px;
+}
+
 /* Optional: ID-based styling for the homepage header if you want a gradient */
 header {
   background: linear-gradient(135deg, #23374D, #2e4c69);
   color: #FFFFFF;
   padding: 60px 0;
-  /* Remove any margin-top if you see a white gap */
 }
-
 
 /* Buttons: Gold accent */
 .btn-primary {
@@ -100,21 +107,6 @@ footer {
   margin-bottom: 30px;
 }
 
-.card {
-  background-color: #ffffff;
-  color: #333333;
-  margin-bottom: 20px;
-  border: 1px solid #dddddd;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
-}
-
 .card-img-top {
   height: 300px;
   object-fit: cover;
@@ -135,14 +127,9 @@ footer {
   font-size: 0.9rem;
 }
 
-/* Button Style */
-.btn-primary {
-  background-color: #FFC107;
-  border-color: #FFC107;
-  color: #23374D;
-}
-
-.btn-primary:hover {
-  background-color: #FFB300;
-  border-color: #FFB300;
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px; /* Space between buttons */
+  margin-top: 20px;
 }

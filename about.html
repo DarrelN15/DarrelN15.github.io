@@ -12,18 +12,13 @@
 </head>
 <body>
   <!-- NAVBAR -->
-  <nav class="navbar navbar-expand-lg navbar-dark">
-    <div class="container">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">  <!-- Changed from .container to .container-fluid -->
       <a class="navbar-brand" href="index.html">Darrel Nitereka</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarNav"
-      >
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="collapse navbar-collapse justify-content-between" id="navbarNav">  <!-- Added justify-content-between -->
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
           <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
@@ -31,7 +26,7 @@
         </ul>
       </div>
     </div>
-  </nav>
+  </nav>  
 
   <!-- MAIN CONTENT -->
   <main>
@@ -53,7 +48,7 @@
           <div class="col-md-6">
             <h3>Technical Skills</h3>
             <ul class="list-unstyled">
-              <li><strong>Languages:</strong> Python, Java, C#, Dart, HTML/CSS</li>
+              <li><strong>Languages:</strong> Java, Python, C#, Dart, HTML/CSS</li>
               <li><strong>Frameworks:</strong> Django, Flask, React, Flutter</li>
               <li><strong>Databases:</strong> PostgreSQL, SQLite, Supabase</li>
               <li><strong>Machine Learning:</strong> Scikit-Learn, CRISP-DM, AI Product Strategy</li>
