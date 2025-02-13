@@ -11,6 +11,7 @@
 - **Projects**: A collection of my best projects with descriptions and links.
 - **Contact**: Ways to connect with me.
 
+
 ## 🛠️ Tech Stack
 - **Frontend:** HTML, CSS, Bootstrap  
 - **Deployment:** GitHub Pages  
